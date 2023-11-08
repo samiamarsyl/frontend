@@ -1,0 +1,82 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    width: 100%;
+    min-height: 100vh;
+    background-color: white;
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.article {
+    width: 70%;
+    margin: 0 10px 10px 0;
+    float: left;
+}
+
+.article h1 strong {
+    text-transform: uppercase;
+}
+
+.article img {
+    width: 30%;
+    float: left;
+}
+
+.article p {
+    text-align: justify;
+}
+
+.article a {
+    color: red;
+    text-decoration: none;
+    display: block;
+    text-align: right;
+}
+
+.article a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    box-shadow: 0px -5px 5px 0px #000;
+}
+
+.partners {
+    float: left;
+    clear: left;
+    margin-right: 10px;
+}
+
+.footer-links {
+    color: lightgray;
+    text-decoration: none;
+}
+
+.footer-links:hover {
+    text-decoration: underline;
+}
+
+.contact-info {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+
+
